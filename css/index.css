@@ -52,7 +52,6 @@
 
 .memorial{
     margin-top: 20px;
-    margin-left: 10%;
 }
 
 /* 响应式设计 */
@@ -68,6 +67,7 @@
     .memorial{
         width: 250px;
         height: 250px;
+        margin-left: 10%;
     }
 }
 
