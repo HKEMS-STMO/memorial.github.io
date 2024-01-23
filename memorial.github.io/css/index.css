@@ -1,0 +1,86 @@
+/* 通用样式 */
+.Slide-infor {
+    margin-top: 0;
+}
+
+.maininfor {
+    text-align: center;
+}
+
+.welcome {
+    height: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.welcome h2 {
+    padding-top: 20px;
+    color: rgb(130, 130, 130);
+}
+
+.welcome h3 {
+    padding: 5px 0 10px;
+    color: rgb(100, 100, 100);
+}
+
+.disappear {
+    display: none;
+}
+
+#content {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#d-block {
+    width: 90%;
+    height: 100%;
+}
+
+.poetry {
+    margin-top: 25px;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+
+.poetry_author {
+    margin-top: 25px;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(90, 90, 90);
+}
+
+.memorial{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+/* 响应式设计 */
+@media screen and (min-width: 768px) {
+    .poetry,
+    .poetry_author {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .poetry_author {
+        margin-left: 30%;
+    }
+    .memorial{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .poetry,
+    .poetry_author {
+        text-align: center;
+    }
+    .poetry_author {
+        margin-left: 20%;
+    }
+    .memorial{
+        width: 200px;
+        height: 200px;
+    }
+}
